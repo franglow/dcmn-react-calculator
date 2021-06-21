@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "dcmn",
+    title: 'dcmn',
   },
   plugins: [],
+  pathPrefix: '/dcmn-react-calculator',
 };
