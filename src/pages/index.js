@@ -3,6 +3,7 @@ import { Box, Heading, Container } from '@chakra-ui/layout';
 import Calculator from '../components/Calculator';
 
 const IndexPage = () => (
+  // Adding chakra-ui responsive behavior
   <Box p={[2, 4, 8]} maxW="600px" m="0 auto">
     <Container maxW="3xl">
       <Heading
