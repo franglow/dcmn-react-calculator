@@ -13,7 +13,7 @@ export default function Display({ value }) {
 
   return (
     <Flex bg="#171923" height="80px" justifyContent="right">
-      <Heading paddingRight="5px" color="#F7FAFC">
+      <Heading paddingRight="5px" color="#F7FAFC" w="100%" textAlign="right">
         {formattedValue}
       </Heading>
     </Flex>
