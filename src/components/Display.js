@@ -2,9 +2,8 @@ import React from 'react';
 import { Flex, Box, Heading } from '@chakra-ui/layout';
 
 export default function Display({ value }) {
-  const language = navigator.language || 'en-US';
   // https://www.w3schools.com/jsref/jsref_tolocalestring.asp
-  let formattedValue = parseFloat(value).toLocaleString(language, {
+  let formattedValue = parseFloat(value).toLocaleString('en-US', {
     useGrouping: true,
     maximumFractionDigits: 2,
   });
